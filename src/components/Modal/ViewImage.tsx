@@ -24,11 +24,8 @@ export function ModalViewImage({
       <ModalOverlay />
 
       <ModalContent bg="pGray.800">
-        <ModalBody>
-          <Image
-            src={imgUrl}
-            // TODO: add styles
-          />
+        <ModalBody p="0">
+          <Image src={imgUrl} />
         </ModalBody>
 
         <ModalFooter justifyContent="flex-start" h="8" px="2.5">
